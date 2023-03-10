@@ -68,6 +68,24 @@
 @disabled
 0318CC74 490180D24901C0F2
 
+// Match duration = 1s [Coxxs]
+@disabled
+03139EC0 29008052
+03139E9C 2A008052
+03139ED4 28008052
+
+// Match duration = 1min [Coxxs]
+@disabled
+03139EC0 89078052
+03139E9C AA088052
+03139ED4 88078052
+
+// Match duration = 10min [Coxxs]
+@disabled
+03139EC0 094B8052
+03139E9C 0A4B8052
+03139ED4 084B8052
+
 // Shoal 10x [Coxxs]
 @enabled
 0313DD18 28008052
