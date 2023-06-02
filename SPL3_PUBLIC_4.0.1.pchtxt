@@ -1,0 +1,174 @@
+@nsobid-62720B5A48247A210B7E7E46A77291D2DB91A2EC
+# Spl 3 4.0.1
+
+@flag offset_shift 0x100
+
+// [!]  All patches are NOT online safe, **use them only in emummc**, 
+//      and keep emummc offline forever, otherwise your console will
+//      be banned.
+//      If you are playing with your friends (LDN/LAN), make sure 
+//      their consoles are in isolated emummc as well.
+//
+// <3 Special thanks to Shadow & Takaharu
+
+// Offline Lobby + Grizzco [Coxxs]
+@enabled
+033E231C 000001910101805265D77D17C0035FD6
+033992B0 00E000916100805280FB7E17C0035FD6
+051496BC "nope"
+033FCDDC 2B010054
+
+// Allow saving offline [Coxxs]
+@disabled
+02F710A4 1F2003D5
+02F710C4 1F2003D5
+02F710D0 1F2003D5
+02F710DC 1F2003D51F2003D51F2003D51F2003D5
+
+// Always Lan [Takaharu]
+@disabled 
+02FA7EF0 28008052
+
+// Quick Lan [Coxxs]
+@enabled 
+033B2E9C 1F050071
+
+// One Player Shoal v2 [Coxxs]
+@enabled
+03A1A2EC 1F010071
+03B97164 1F050071
+03B97188 08008052
+0332C630 1F2003D5
+03340878 1F2003D5
+02DF4F88 7F9E0F71
+02DF598C 1F2003D5
+
+// Allow Hazard Level 200+ (Shoal) [Coxxs]
+@enabled
+03A18F64 08328052
+
+// Allow Tricolor (Shoal / Recon) [Coxxs]
+@enabled
+03B916E0 C9008052
+05FFDCB4 05000000
+
+// Shoal Splatfest (Night + Bgm) [Coxxs] 
+@disabled
+032DBCEC E9008052
+032DC008 21008052
+032DE550 1F2003D5
+
+// Either = Charlie Team [Coxxs]
+@disabled
+032D8C6C 1F2003D5
+02DE070C BF110071
+02DE0944 02008052
+
+// Allow 10 Players [Coxxs]
+@disabled
+0333CD1C 490180D24901C0F2
+
+// Match duration = 1s [Coxxs]
+@disabled
+032DE4F0 29008052
+032DE4D4 2A008052
+032DE504 28008052
+
+// Match duration = 1min [Coxxs]
+@disabled
+032DE4F0 89078052
+032DE4D4 AA088052
+032DE504 88078052
+
+// Match duration = 10min [Coxxs]
+@disabled
+032DE4F0 094B8052
+032DE4D4 0A4B8052
+032DE504 084B8052
+
+// Shoal 10x [Coxxs]
+@enabled
+032E02C0 28008052
+032E0298 1F2003D5
+
+// Shoal 100x [Coxxs]
+@disabled
+032E02C0 48008052
+032E0298 1F2003D5
+
+// Shoal 333x [Coxxs]
+@disabled
+032E02C0 68008052
+032E0298 1F2003D5
+
+// Offline Splatfest / Big Run [Coxxs]
+@enabled
+03683D9C 2900805209D100B9
+032B857C 00008052
+036835F8 00008052
+03611478 1F2003D5
+03611768 1F2003D5
+03683BA4 08008052
+051496BC "nope"
+
+// Splatfest (Sneak Peek)
+@disabled
+02FDB704 4C008052AC0A00B9
+
+// Splatfest (First Half)
+@disabled
+02FDB704 6C008052AC0A00B9
+
+// Splatfest (Second Half)
+@enabled
+02FDB704 8C008052AC0A00B9
+
+// Splatfest (After)
+@disabled
+02FDB704 AC008052AC0A00B9
+
+// Big Run
+@disabled
+02FDB704 2C008052AC0A00B9
+02FDB4DC 4D008052
+02FDB4E4 0D2000B9
+
+// Salmon Run - Bigrun
+@disabled
+032DD2D0 88008052
+032DD2D8 88008052
+032DD2C8 88008052
+032DC670 88008052
+032DB88C 88008052
+
+// Salmon Run - Pair
+@disabled
+032DD2D0 A8008052
+032DD2D8 A8008052
+032DD2C8 A8008052
+032DC670 A8008052
+032DB88C A8008052
+
+// Salmon Run - UnderGround
+@disabled
+032DD2D0 C8008052
+032DD2D8 C8008052
+032DD2C8 C8008052
+032DC670 C8008052
+032DB88C C8008052
+
+// Salmon Run - Contest
+@disabled
+032DD2D0 E8008052
+032DD2D8 E8008052
+032DD2C8 E8008052
+032DC670 E8008052
+032DB88C E8008052
+
+// Sunset [Coxxs]
+@disabled
+0116B8D0 200080D2C0035FD6
+
+// Night [Coxxs]
+@disabled
+0116B8D0 400080D2C0035FD6
