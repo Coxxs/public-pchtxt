@@ -52,11 +52,10 @@
 03B92EC0 C9008052
 05FFECB4 05000000
 
-// Shoal Splatfest (Night + Bgm) [Coxxs] 
-@disabled
-032DD52C E9008052
+// Shoal Splatfest (Night + Bgm) v2 [Coxxs]
+@enabled
+02FC35B4 280080D2
 032DD848 21008052
-032DFCD8 1F2003D5
 
 // Either = Charlie Team [Coxxs]
 @disabled
@@ -70,21 +69,18 @@
 
 // Match duration = 1s [Coxxs]
 @disabled
-032DFD30 29008052
-032DFD14 2A008052
-032DFD44 28008052
+032DD608 29008052
+032DFD54 1F2003D5
 
 // Match duration = 1min [Coxxs]
 @disabled
-032DFD30 89078052
-032DFD14 AA088052
-032DFD44 88078052
+032DD608 89078052
+032DFD54 1F2003D5
 
 // Match duration = 10min [Coxxs]
 @disabled
-032DFD30 094B8052
-032DFD14 0A4B8052
-032DFD44 084B8052
+032DD608 094B8052
+032DFD54 1F2003D5
 
 // Shoal 10x [Coxxs]
 @enabled
