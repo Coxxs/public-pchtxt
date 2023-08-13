@@ -97,7 +97,7 @@
 032E9888 68008052
 032E9860 1F2003D5
 
-// Offline Splatfest / Big Run [Coxxs]
+// Enable Plaza Splatfest / Big Run [Coxxs]
 @enabled
 0369141C 2900805209D100B9
 032C172C 00008052
@@ -107,23 +107,23 @@
 03691224 08008052
 0515816A "nope"
 
-// Splatfest (Sneak Peek)
+// Plaza Splatfest (Sneak Peek)
 @disabled
 02FE45F4 4C008052AC0A00B9
 
-// Splatfest (First Half)
+// Plaza Splatfest (First Half)
 @disabled
 02FE45F4 6C008052AC0A00B9
 
-// Splatfest (Second Half)
+// Plaza Splatfest (Second Half)
 @enabled
 02FE45F4 8C008052AC0A00B9
 
-// Splatfest (After)
+// Plaza Splatfest (After)
 @disabled
 02FE45F4 AC008052AC0A00B9
 
-// Big Run
+// Plaza Big Run
 @disabled
 02FE45F4 2C008052AC0A00B9
 02FE43CC 4D008052
