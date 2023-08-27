@@ -3,11 +3,11 @@
 
 @flag offset_shift 0x100
 
-// [!]  All patches are NOT online safe, **use them only in emummc**, 
-//      and keep emummc offline forever, otherwise your console will
+// [!]  All patches are NOT online safe, **use them only in emuMMC**, 
+//      and keep emuMMC offline forever, otherwise your console will
 //      be banned.
 //      If you are playing with your friends (LDN/LAN), make sure 
-//      their consoles are in isolated emummc as well.
+//      their consoles are in isolated emuMMC as well.
 //
 // <3 Special thanks to Shadow & Takaharu
 
@@ -17,6 +17,11 @@
 033A5310 00E000916100805240D17E17C0035FD6
 0515816A "nope"
 03408D6C 2B010054
+
+// Offline Lobby Jukebox [Coxxs]
+@enabled
+033E68C4 1F2003D5
+02D54324 1F2003D5
 
 // Allow saving offline [Coxxs]
 @disabled
