@@ -233,6 +233,30 @@
 @disabled
 033AC078 3F3C007161000054200080D2C0035FD6
 
+// Challenge User Setting Modifier - RandomWeapon
+@disabled
+0373F940 2A008052
+0373F944 EA1E00B9
+0373F970 1F2003D5
+
+// Challenge User Setting Modifier - DisableAdditionalGearSkill
+@disabled
+0373F940 4A008052
+0373F944 EA1E00B9
+0373F970 1F2003D5
+
+// Challenge User Setting Modifier - DisableAdditionalGearSkillIfTurfWar
+@disabled
+0373F940 6A008052
+0373F944 EA1E00B9
+0373F970 1F2003D5
+
+// Challenge User Setting Modifier - RandomAmiiboGear
+@disabled
+0373F940 8A008052
+0373F944 EA1E00B9
+0373F970 1F2003D5
+
 // Salmon Run - Bigrun
 @disabled
 03A20480 88008052
