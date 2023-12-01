@@ -1,0 +1,288 @@
+@nsobid-4D8978BF09606E008DF242DDAF20BC7BCA6D28E3
+# Spl 3 6.0.0
+
+@flag offset_shift 0x100
+
+// [!]  All patches are NOT online safe, **use them only in emuMMC**, 
+//      and keep emuMMC offline forever, otherwise your console will
+//      be banned.
+//      If you are playing with your friends (LDN/LAN), make sure 
+//      their consoles are in isolated emuMMC as well.
+//
+// <3 Special thanks to Shadow & Takaharu
+
+// Offline Lobby + Grizzco v2 [Coxxs]
+@enabled
+0386EFAC 60020191C1008052
+03823658 60E20091A1008052
+057264E9 "nope"
+0388A6BC 2B010054
+
+// Offline Lobby Jukebox [Coxxs]
+@enabled
+03867090 1F2003D5
+031137E4 1F2003D5
+
+// Offline shop [Takaharu]
+@enabled
+031A3180 28008052
+
+// Shush Mr Sheldon [Takaharu]
+@enabled
+03B210A4 C0035FD6
+03B211E4 C0035FD6
+
+// Allow saving offline [Coxxs]
+@disabled
+03371F40 1F2003D5
+03371F60 1F2003D5
+03371F6C 1F2003D5
+03371F78 1F2003D51F2003D51F2003D51F2003D5
+
+// Always Lan [Takaharu]
+@disabled 
+033AE7CC 28008052
+
+// Quick Lan [Coxxs]
+@enabled 
+0383DA18 1F050071
+
+// One Player Shoal v2 [Coxxs]
+@enabled
+03F54D50 1F010071
+040F42C4 1F050071
+040F42E8 08008052
+037B02EC 1F2003D5
+037C4DA4 1F2003D5
+031CF1F0 7F9E0F71
+031CF28C 17008052
+03756B1C 08008052
+
+// Allow Hazard Level 200+ (Shoal) [Coxxs]
+@enabled
+03F53964 08328052
+
+// Allow Tricolor (Shoal / Recon) [Coxxs]
+@disabled
+040EDE1C C9008052
+067F8BEC 05000000
+
+// Shoal Splatfest (Night + Bgm) v2 [Coxxs]
+@enabled
+033C9BC8 280080D2
+03753298 21008052
+
+// Either = Charlie Team [Coxxs]
+@disabled
+037500B0 1F2003D5
+031B892C BF110071
+031B8B64 02008052
+
+// Allow 10 Players [Coxxs]
+@disabled
+037C14C0 490180D24901C0F2
+
+// Match duration = 1s [Coxxs]
+@disabled
+03753060 29008052
+03755AA0 1F2003D5
+
+// Match duration = 1min [Coxxs]
+@disabled
+03753060 89078052
+03755AA0 1F2003D5
+
+// Match duration = 10min [Coxxs]
+@disabled
+03753060 094B8052
+03755AA0 1F2003D5
+
+// Shoal 10x [Coxxs]
+@enabled
+03757AB0 28008052
+03757A88 1F2003D5
+
+// Shoal 100x [Coxxs]
+@disabled
+03757AB0 48008052
+03757A88 1F2003D5
+
+// Shoal 333x [Coxxs]
+@disabled
+03757AB0 68008052
+03757A88 1F2003D5
+
+// Enable Plaza Splatfest / Big Run [Coxxs]
+@enabled
+03B567C0 2900805209D100B9
+033F1500 08008052
+033F1560 00008052
+03ABEC94 1F2003D5
+03ABEFAC 1F2003D5
+03B565B0 08008052
+057264E9 "nope"
+
+// Plaza Splatfest (Sneak Peek)
+@disabled
+033EDB24 4C008052AC0A00B9
+
+// Plaza Splatfest (First Half)
+@disabled
+033EDB24 6C008052AC0A00B9
+
+// Plaza Splatfest (Second Half)
+@enabled
+033EDB24 8C008052AC0A00B9
+
+// Plaza Splatfest (After)
+@disabled
+033EDB24 AC008052AC0A00B9
+
+// Plaza Big Run
+@disabled
+033EDB24 2C008052AC0A00B9
+033ED8FC 4D008052
+033ED904 0D2800B9
+
+// Enable Challenge Modifiers [Coxxs]
+@enabled
+034E2DFC 1F2003D5
+033D487C 1F2003D51F2003D51F2003D51F2003D5
+033D488C 1F2003D51F2003D51F2003D51F2003D5
+033D489C 1F2003D51F2003D51F2003D51F2003D5
+033D48AC 1F2003D51F2003D51F2003D51F2003D5
+033D48BC 1F2003D51F2003D51F2003D51F2003D5
+033D48CC 1F2003D51F2003D51F2003D51F2003D5
+033D48DC 1F2003D51F2003D51F2003D51F2003D5
+033D48EC 1F2003D51F2003D51F2003D51F2003D5
+033D48FC 1F2003D51F2003D51F2003D51F2003D5
+033D490C 1F2003D51F2003D51F2003D51F2003D5
+033D491C 1F2003D51F2003D51F2003D51F2003D5
+033D492C 1F2003D51F2003D51F2003D51F2003D5
+033D493C 1F2003D51F2003D51F2003D51F2003D5
+033D494C 1F2003D51F2003D51F2003D51F2003D5
+033D495C 1F2003D51F2003D51F2003D51F2003D5
+033D496C 1F2003D51F2003D51F2003D51F2003D5
+033D497C 1F2003D51F2003D51F2003D51F2003D5
+033D498C 000080D2C0035FD6
+
+// Apply Challenge Modifier to all scene
+@disabled
+0345D34C 28008052
+0345D2A8 28008052
+
+// Challenge Modifier - SpecialFill
+@disabled
+033D487C 3F00007161000054200080D2C0035FD6
+
+// Challenge Modifier - FastRespawn
+@disabled
+033D488C 3F04007161000054200080D2C0035FD6
+
+// Challenge Modifier - SpecialGaugeSave
+@disabled
+033D489C 3F08007161000054200080D2C0035FD6
+
+// Challenge Modifier - HumanSpeedUp
+@disabled
+033D48AC 3F0C007161000054200080D2C0035FD6
+
+// Challenge Modifier - SquidSpeedUp
+@disabled
+033D48BC 3F10007161000054200080D2C0035FD6
+
+// Challenge Modifier - DeepFog
+@enabled
+033D48CC 3F14007161000054200080D2C0035FD6
+
+// Challenge Modifier - HumanSpeedDown
+@disabled
+033D48DC 3F18007161000054200080D2C0035FD6
+
+// Challenge Modifier - HighJump
+@disabled
+033D48EC 3F1C007161000054200080D2C0035FD6
+
+// Challenge Modifier - DieBlastLarge
+@disabled
+033D48FC 3F20007161000054200080D2C0035FD6
+
+// Challenge Modifier - SpawnArmorUp
+@disabled
+033D490C 3F24007161000054200080D2C0035FD6
+
+// Challenge Modifier - FastRespawnForPair
+@disabled
+033D491C 3F28007161000054200080D2C0035FD6
+
+// Challenge Modifier - ModifiedPowerClam
+@disabled
+033D492C 3F2C007161000054200080D2C0035FD6
+
+// Challenge Modifier - SuperSubWeapon
+@disabled
+033D493C 3F30007161000054200080D2C0035FD6
+
+// Challenge Modifier - ModifiedRainmaker
+@disabled
+033D494C 3F34007161000054200080D2C0035FD6
+
+// Challenge Modifier - RainmakerDrop
+@disabled
+033D495C 3F38007161000054200080D2C0035FD6
+
+// Challenge Modifier - FullMemberAvoidNogame
+@disabled
+033D496C 3F3C007161000054200080D2C0035FD6
+
+// Challenge Modifier - ModifiedTowerControl
+@disabled
+033D497C 3F40007161000054200080D2C0035FD6
+
+// Challenge User Setting Modifier - RandomWeapon
+@disabled
+03764454 2A008052
+03764458 EA1E00B9
+03764484 1F2003D5
+
+// Challenge User Setting Modifier - DisableAdditionalGearSkill
+@disabled
+03764454 4A008052
+03764458 EA1E00B9
+03764484 1F2003D5
+
+// Challenge User Setting Modifier - DisableAdditionalGearSkillIfTurfWar
+@disabled
+03764454 6A008052
+03764458 EA1E00B9
+03764484 1F2003D5
+
+// Challenge User Setting Modifier - RandomAmiiboGear
+@disabled
+03764454 8A008052
+03764458 EA1E00B9
+03764484 1F2003D5
+
+// Salmon Run - Bigrun
+@disabled
+03BAAD38 88008052
+
+// Salmon Run - Pair
+@disabled
+03BAAD38 A8008052
+
+// Salmon Run - UnderGround
+@disabled
+03BAAD38 C8008052
+
+// Salmon Run - Contest
+@disabled
+03BAAD38 E8008052
+
+// Sunset [Coxxs]
+@disabled
+0121D9EC 200080D2C0035FD6
+
+// Night [Coxxs]
+@disabled
+0121D9EC 400080D2C0035FD6
