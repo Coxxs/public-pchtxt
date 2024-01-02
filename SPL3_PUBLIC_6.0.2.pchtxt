@@ -58,9 +58,13 @@
 031D1CEC 17008052
 0375A0FC 08008052
 
-// Allow Hazard Level 200+ (Shoal) [Coxxs]
+// Salmon Run - Allow Hazard Level 200+ (Shoal) [Coxxs]
 @enabled
 03F57F34 08328052
+
+// Salmon Run - Allow 1 Player Night Wave [Coxxs]
+@disabled
+036911F8 1F000071
 
 // Allow Tricolor (Shoal / Recon) [Coxxs]
 @disabled
