@@ -23,6 +23,32 @@
 0386B670 1F2003D5
 031159B4 1F2003D5
 
+// * Replays are stored in the "Cache" storage, you can use JKSV to backup/share/restore them.
+// Offline Lobby View Replays [Coxxs]
+@enabled
+03882604 28008052A8060039
+0326EA08 1F2003D5
+
+// View Replays - Allow Replays from other users [Coxxs]
+@enabled
+03268EB0 30008052
+03268DE8 1F2003D5
+03268E58 1F2003D5
+03268F88 1F2003D5
+03269070 1F2003D5
+03269008 1F2003D5
+
+// View Replays - Preserve incompatible Replays from old version [Coxxs]
+@enabled
+0388BBB4 1F2003D5
+
+// View Replays - Allow some incompatible Replays from old version [Coxxs]
+@disabled
+0326CBE4 1F01086B
+037A0D80 1F01086B
+0326CD04 3F01096B
+03255860 1F01086B
+
 // Offline shop [Takaharu]
 @enabled
 031A5910 28008052
