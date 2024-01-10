@@ -3,11 +3,11 @@
 
 @flag offset_shift 0x100
 
-// [!]  All patches are NOT online safe, **use them only in emummc**, 
-//      and keep emummc offline forever, otherwise your console will
+// [!]  All patches are NOT online safe, **use them only in emuMMC**, 
+//      and keep emuMMC offline forever, otherwise your console will
 //      be banned.
 //      If you are playing with your friends (LDN/LAN), make sure 
-//      their consoles are in isolated emummc as well.
+//      their consoles are in isolated emuMMC as well.
 //
 // <3 Special thanks to Shadow & Takaharu
 
@@ -17,6 +17,47 @@
 0339AAB0 00E000916100805258FB7E17C0035FD6
 0514A59C "nope"
 033FE5DC 2B010054
+
+// Offline Lobby Jukebox [Coxxs]
+@enabled
+033DC134 1F2003D5
+02D4FCE4 1F2003D5
+
+// * Replays are stored in the "Cache" storage, you can use JKSV to backup/share/restore them.
+// Offline Lobby View Replays [Coxxs]
+@enabled
+033F13F8 28008052A8060039
+02E7B538 1F2003D5
+032EE1E4 01008052
+
+// View Replays - Allow Replays from other users [Coxxs]
+@enabled
+02E75D14 30008052
+02E75C4C 1F2003D5
+02E75CBC 1F2003D5
+02E75DEC 1F2003D5
+02E75ED4 1F2003D5
+02E75E6C 1F2003D5
+
+// View Replays - Preserve incompatible Replays from old version [Coxxs]
+@enabled
+033FB7B0 1F2003D5
+
+// View Replays - Allow some incompatible Replays from old version [Coxxs]
+@disabled
+02E79A4C 1F01086B
+033F40F0 1F01086B
+02E79B78 3F01096B
+02E64098 1F01086B
+
+// Offline shop [Takaharu]
+@enabled
+02DD0E1C 28008052
+
+// Shush Mr Sheldon [Takaharu]
+@enabled
+03652CE8 C0035FD6
+03652E28 C0035FD6
 
 // Allow saving offline [Coxxs]
 @disabled
@@ -43,9 +84,13 @@
 02DF67C8 7F9E0F71
 02DF71CC 1F2003D5
 
-// Allow Hazard Level 200+ (Shoal) [Coxxs]
+// Salmon Run - Allow Hazard Level 200+ (Shoal) [Coxxs]
 @enabled
 03A1A754 08328052
+
+// Salmon Run - Allow 1 Player Night Wave [Coxxs]
+@disabled
+032263D8 1F000071
 
 // Allow Tricolor (Shoal / Recon) [Coxxs]
 @enabled
@@ -97,7 +142,7 @@
 032E1B00 68008052
 032E1AD8 1F2003D5
 
-// Offline Splatfest / Big Run [Coxxs]
+// Enable Plaza Splatfest / Big Run [Coxxs]
 @enabled
 0368558C 2900805209D100B9
 032B9DBC 00008052
@@ -107,23 +152,23 @@
 03685394 08008052
 0514A59C "nope"
 
-// Splatfest (Sneak Peek)
+// Plaza Splatfest (Sneak Peek)
 @disabled
 02FDCF44 4C008052AC0A00B9
 
-// Splatfest (First Half)
+// Plaza Splatfest (First Half)
 @disabled
 02FDCF44 6C008052AC0A00B9
 
-// Splatfest (Second Half)
+// Plaza Splatfest (Second Half)
 @enabled
 02FDCF44 8C008052AC0A00B9
 
-// Splatfest (After)
+// Plaza Splatfest (After)
 @disabled
 02FDCF44 AC008052AC0A00B9
 
-// Big Run
+// Plaza Big Run
 @disabled
 02FDCF44 2C008052AC0A00B9
 02FDCD1C 4D008052

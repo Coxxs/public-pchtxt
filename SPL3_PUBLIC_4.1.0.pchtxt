@@ -23,6 +23,42 @@
 033E68C4 1F2003D5
 02D54324 1F2003D5
 
+// * Replays are stored in the "Cache" storage, you can use JKSV to backup/share/restore them.
+// Offline Lobby View Replays [Coxxs]
+@enabled
+033FBB88 28008052A8060039
+02E827C8 1F2003D5
+032F67F4 01008052
+
+// View Replays - Allow Replays from other users [Coxxs]
+@enabled
+02E7CFB4 30008052
+02E7CEEC 1F2003D5
+02E7CF5C 1F2003D5
+02E7D08C 1F2003D5
+02E7D174 1F2003D5
+02E7D10C 1F2003D5
+
+// View Replays - Preserve incompatible Replays from old version [Coxxs]
+@enabled
+03405F3C 1F2003D5
+
+// View Replays - Allow some incompatible Replays from old version [Coxxs]
+@disabled
+02E80CE8 1F01086B
+033FE87C 1F01086B
+02E80E10 3F01096B
+02E6B324 1F01086B
+
+// Offline shop [Takaharu]
+@enabled
+02DD66EC 28008052
+
+// Shush Mr Sheldon [Takaharu]
+@enabled
+0365E548 C0035FD6
+0365E688 C0035FD6
+
 // Allow saving offline [Coxxs]
 @disabled
 02F79EE4 1F2003D5
@@ -48,9 +84,13 @@
 02DFDA58 7F9E0F71
 02DFE45C 1F2003D5
 
-// Allow Hazard Level 200+ (Shoal) [Coxxs]
+// Salmon Run - Allow Hazard Level 200+ (Shoal) [Coxxs]
 @enabled
 03A27034 08328052
+
+// Salmon Run - Allow 1 Player Night Wave [Coxxs]
+@disabled
+0322DC38 1F000071
 
 // Allow Tricolor (Shoal / Recon) [Coxxs]
 @enabled
