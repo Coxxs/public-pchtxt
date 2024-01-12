@@ -24,6 +24,10 @@
 031159B4 1F2003D5
 
 // * Replays are stored in the "Cache" storage, you can use JKSV to backup/share/restore them.
+// Allow Record Replays (Shoal) [Coxxs]
+@enabled
+0325B070 7F011F6B
+
 // Offline Lobby View Replays [Coxxs]
 @enabled
 03882604 28008052A8060039
