@@ -78,6 +78,11 @@
 @enabled 
 03841058 1F050071
 
+// https://github.com/theboy181/switch-ptchtxt-mods
+// 60fps [theboy181]
+@disabled
+0153E864 E8030A2A
+
 // One Player Shoal v2 [Coxxs]
 @enabled
 03F59320 1F010071
