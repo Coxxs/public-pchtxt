@@ -24,6 +24,7 @@
 031159B4 1F2003D5
 
 // * Replays are stored in the "Cache" storage, you can use JKSV to backup/share/restore them.
+// * Requires at least 2 players in the game for replay to record properly.
 // Allow Record Replays (Shoal) [Coxxs]
 @enabled
 0325B070 7F011F6B
