@@ -185,6 +185,10 @@
 033F3DEC 4D008052
 033F3DF4 0D2800B9
 
+// Plaza Splatfest - Bypass Cloth Change Limit [Coxxs]
+@disabled
+0371F5F8 1F2003D5
+
 // Enable Challenge Modifiers [Coxxs]
 @enabled
 034E92FC 1F2003D5
