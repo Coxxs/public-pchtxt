@@ -314,6 +314,11 @@
 03F12540 EA1E00B9
 03F1256C 1F2003D5
 
+// Grizzco - Show All Regular Weapons [Coxxs]
+@disabled
+03F83DE8 20008052
+03F83EA8 1F01086B
+
 // Salmon Run - Bigrun
 @disabled
 041E6FC8 88008052
