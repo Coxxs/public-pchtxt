@@ -100,29 +100,6 @@
 @enabled
 047D4518 08328052
 
-// Salmon Run - Allow 1 Player Night Wave [Coxxs]
-@disabled
-03D3D384 1F000071
-
-// Force Boss on Coop Wave 1 [Haxxie]
-@disabled
-03D3B6E8 1F2003D5
-03D3B6F0 1F2003D5
-03D3B6F8 09008052 
-
-// Force Boss on Coop Wave 2 [Haxxie]
-@disabled
-03D3B6E8 1F2003D5
-03D3B6F0 1F2003D5
-03D3B6F8 29008052 
-
-// Force Boss on Coop Wave 4 [Haxxie]
-@enabled
-03D3B6E8 1F2003D5
-03D3B6F0 1F2003D5
-03D3B6BC 28008052
-03D3B89C 28008052
-
 // Allow Tricolor (Shoal / Recon) [Coxxs]
 @disabled
 04A1596C C9008052
@@ -380,6 +357,77 @@
 03E7B224 1F2003D5
 03E7B250 280C4EF81F2003D5
 03E7B264 16000014
+
+// Salmon Run Wave Tide - Normal Tide [Coxxs]
+@disabled
+03D3D320 29008052
+
+// Salmon Run Wave Tide - Low Tide
+@disabled
+03D3D320 09008052
+
+// Salmon Run Wave Tide - High Tide
+@disabled
+03D3D320 49008052
+
+// Salmon Run - Allow 1 Player Night Wave [Coxxs]
+@disabled
+03D3D384 1F000071
+
+// Salmon Run - Force Boss on Wave 1 [Haxxie]
+@disabled
+03D3B6E8 1F2003D5
+03D3B6F0 1F2003D5
+03D3B6F8 09008052 
+
+// Salmon Run - Force Boss on Wave 2 [Haxxie]
+@disabled
+03D3B6E8 1F2003D5
+03D3B6F0 1F2003D5
+03D3B6F8 29008052 
+
+// Salmon Run - Force Boss on Wave 4 [Haxxie]
+@enabled
+03D3B6E8 1F2003D5
+03D3B6F0 1F2003D5
+03D3B6BC 28008052
+03D3B89C 28008052
+
+// Salmon Run Wave Type - Regular [Coxxs]
+@disabled
+03D3D338 08008052 // 0
+
+// Salmon Run Wave Type - Rush
+@disabled
+03D3D338 28008052 // 1
+
+// Salmon Run Wave Type - Goldie Seeking
+@disabled
+03D3D338 48008052 // 2
+
+// Salmon Run Wave Type - The Griller
+@disabled
+03D3D338 68008052 // 3
+
+// Salmon Run Wave Type - The Mothership
+@disabled
+03D3D338 88008052 // 4
+
+// Salmon Run Wave Type - Fog
+@disabled
+03D3D338 A8008052 // 5
+
+// Salmon Run Wave Type - Cohock Charge
+@disabled
+03D3D338 C8008052 // 6
+
+// Salmon Run Wave Type - Giant Tornado
+@disabled
+03D3D338 E8008052 // 7
+
+// Salmon Run Wave Type - Mudmouth Eruptions
+@disabled
+03D3D338 08018052 // 8
 
 // Salmon Run - Bigrun
 @disabled
