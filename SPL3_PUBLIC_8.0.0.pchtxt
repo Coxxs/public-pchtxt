@@ -364,6 +364,10 @@
 03E0FCA0 EA1E00B9
 03E0FCCC 1F2003D5
 
+// Show Big Run Stages
+@enabled
+0167F5F4 08008052
+
 // Grizzco - Show All Regular Weapons [Coxxs]
 @disabled
 03E7E6D8 20008052
