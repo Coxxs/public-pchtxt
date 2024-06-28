@@ -373,24 +373,40 @@
 @disabled
 03D3D384 1F000071
 
-// Salmon Run - Force Boss on Wave 1 [Haxxie]
+// Salmon Run - Force King Salmonid on Wave 1 [Haxxie]
 @disabled
 03D3B6E8 1F2003D5
 03D3B6F0 1F2003D5
 03D3B6F8 09008052 
 
-// Salmon Run - Force Boss on Wave 2 [Haxxie]
+// Salmon Run - Force King Salmonid on Wave 2 [Haxxie]
 @disabled
 03D3B6E8 1F2003D5
 03D3B6F0 1F2003D5
 03D3B6F8 29008052 
 
-// Salmon Run - Force Boss on Wave 4 [Haxxie]
+// Salmon Run - Force King Salmonid on Wave 4 [Haxxie]
 @enabled
 03D3B6E8 1F2003D5
 03D3B6F0 1F2003D5
 03D3B6BC 28008052
 03D3B89C 28008052
+
+// Salmon Run King Salmonid - Cohozuna [ashbinary]
+@disabled
+03C98A2C F502805204000014 // 23
+
+// Salmon Run King Salmonid - Horrorboros [ashbinary]
+@disabled
+03C98A2C 1503805204000014 // 24
+
+// Salmon Run King Salmonid - Megalodontia [ashbinary]
+@disabled
+03C98A2C 3503805204000014 // 25
+
+// Salmon Run King Salmonid - Triumvirate [ashbinary]
+@enabled
+03C98A2C D503805204000014 // 30
 
 // Salmon Run Wave Type - Regular [Coxxs]
 @disabled
