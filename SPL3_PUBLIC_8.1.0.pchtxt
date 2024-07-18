@@ -1,0 +1,469 @@
+@nsobid-3DD83D6017A3BC3AADB4AA25BC3A2F8336336282
+# Spl 3 8.0.0
+
+@flag offset_shift 0x100
+
+// [!]  All patches are NOT online safe, **use them only in emuMMC**, 
+//      and keep emuMMC offline forever, otherwise your console will
+//      be banned.
+//      If you are playing with your friends (LDN/LAN), make sure 
+//      their consoles are in isolated emuMMC as well.
+//
+// <3 Special thanks to Shadow & Takaharu
+
+// Offline Lobby + Grizzco v2 [Coxxs]
+@enabled
+03F0FDFC 60020191C1008052
+03EC7028 60E20091A1008052
+061FF755 "nope"
+03F2A374 2B010054
+
+// Offline Lobby Jukebox [Coxxs]
+@enabled
+03F08694 1F2003D5
+0370A4F4 1F2003D5
+
+// * Replays are stored in the "Cache" storage, you can use JKSV to backup/share/restore them.
+// * Requires at least 2 players in the game for replay to record properly.
+// Allow Record Replays (Shoal) [Coxxs]
+@enabled
+0384EEE8 7F011F6B
+
+// Offline Lobby View Replays [Coxxs]
+@enabled
+03F1E674 28008052A8060039
+03861E68 1F2003D5
+03E16BB0 01008052
+
+// View Replays - Allow Replays from other users [Coxxs]
+@enabled
+0385C4D0 30008052
+0385C408 1F2003D5
+0385C478 1F2003D5
+0385C5A8 1F2003D5
+0385C690 1F2003D5
+0385C628 1F2003D5
+
+// View Replays - Preserve incompatible Replays from old version [Coxxs]
+@enabled
+03F273DC 1F2003D5
+
+// View Replays - Allow some incompatible Replays from old version [Coxxs]
+@disabled
+03860204 1F01086B
+03E4AA80 1F01086B
+0386032C 3F01096B
+03849C70 1F01086B
+
+// Offline shop [Takaharu]
+@enabled
+03796C40 28008052
+
+// Shush Mr Sheldon [Takaharu]
+@enabled
+0434D008 C0035FD6
+0434D15C C0035FD6
+
+// Allow saving offline [Coxxs]
+@disabled
+039BD4F0 1F2003D5
+039BD510 1F2003D5
+039BD51C 1F2003D5
+039BD528 1F2003D51F2003D51F2003D51F2003D5
+
+// Always Lan [Takaharu]
+@disabled
+03A06BA8 28008052
+
+// Quick Lan [Coxxs]
+@enabled
+03EE006C 1F050071
+
+// https://github.com/theboy181/switch-ptchtxt-mods
+// 60fps [theboy181]
+@disabled
+015D1184 E8030A2A
+04023EF0 E8030A2A
+
+// One Player Shoal v2 [Coxxs]
+@enabled
+047DB3B4 1F010071
+04A22BF4 1F050071
+04A22C18 08008052
+03E5A270 1F2003D5
+03E6CB98 1F2003D5
+037C5B40 7F9E0F71
+037C5BCC 1B008052
+03E07AD4 08008052
+
+// Salmon Run - Allow Hazard Level 200+ (Shoal) [Coxxs]
+@enabled
+047D9FC8 08328052
+
+// Allow Tricolor (Shoal / Recon) [Coxxs]
+@disabled
+04A1C6FC C9008052
+0742A7F4 05000000
+
+// Shoal Splatfest (Night + Bgm) v2 [Coxxs]
+@enabled
+03A27478 280080D2
+03E0430C 20008052
+
+// Either = Charlie Team [Coxxs]
+@disabled
+03E0110C 1F2003D5
+037AC1C8 BF110071
+037AC400 02008052
+
+// Allow 10 Players [Coxxs]
+@disabled
+03E69AC8 490180D24901C0F2
+
+// Match duration = 1s [Coxxs]
+@disabled
+03E040D4 29008052
+03E06AAC 1F2003D5
+
+// Match duration = 1min [Coxxs]
+@disabled
+03E040D4 89078052
+03E06AAC 1F2003D5
+
+// Match duration = 10min [Coxxs]
+@disabled
+03E040D4 094B8052
+03E06AAC 1F2003D5
+
+// Shoal 10x [Coxxs]
+@enabled
+03E08A24 28008052
+03E089B0 1F2003D5
+
+// Shoal 100x [Coxxs]
+@disabled
+03E08A24 48008052
+03E089B0 1F2003D5
+
+// Shoal 333x [Coxxs]
+@disabled
+03E08A24 68008052
+03E089B0 1F2003D5
+
+// Shoal 1x Conch Clash [Coxxs]
+@disabled
+03E08A24 88008052
+03E089B0 1F2003D5
+
+// Shoal 10x Conch Clash [Coxxs]
+@disabled
+03E08A24 A8008052
+03E089B0 1F2003D5
+
+// Shoal 33x Conch Clash [Coxxs]
+@disabled
+03E08A24 C8008052
+03E089B0 1F2003D5
+
+// Enable Plaza Splatfest / Big Run [Coxxs]
+@enabled
+0438284C 2900805209D100B9
+03A4E220 08008052
+03A4E280 00008052
+04153DB4 1F2003D5
+04154110 1F2003D5
+0438262C 08008052
+061FF755 "nope"
+
+// Plaza Splatfest (Sneak Peek)
+@disabled
+03A4A720 4C008052AC0A00B9
+
+// Plaza Splatfest (First Half)
+@disabled
+03A4A720 6C008052AC0A00B9
+
+// Plaza Splatfest (Second Half)
+@enabled
+03A4A720 8C008052AC0A00B9
+
+// Plaza Splatfest (After)
+@disabled
+03A4A720 AC008052AC0A00B9
+
+// Plaza Big Run
+@disabled
+03A4A720 2C008052AC0A00B9
+03A4A4FC 4D008052
+03A4A504 0D2800B9
+
+// Plaza Splatfest - Bypass Cloth Change Limit [Coxxs]
+@disabled
+03DCA49C 1F2003D5
+
+// Enable Challenge Modifiers [Coxxs]
+@enabled
+03B90C3C 1F2003D5
+03A3189C 1F2003D51F2003D51F2003D51F2003D5
+03A318AC 1F2003D51F2003D51F2003D51F2003D5
+03A318BC 1F2003D51F2003D51F2003D51F2003D5
+03A318CC 1F2003D51F2003D51F2003D51F2003D5
+03A318DC 1F2003D51F2003D51F2003D51F2003D5
+03A318EC 1F2003D51F2003D51F2003D51F2003D5
+03A318FC 1F2003D51F2003D51F2003D51F2003D5
+03A3190C 1F2003D51F2003D51F2003D51F2003D5
+03A3191C 1F2003D51F2003D51F2003D51F2003D5
+03A3192C 1F2003D51F2003D51F2003D51F2003D5
+03A3193C 1F2003D51F2003D51F2003D51F2003D5
+03A3194C 1F2003D51F2003D51F2003D51F2003D5
+03A3195C 1F2003D51F2003D51F2003D51F2003D5
+03A3196C 1F2003D51F2003D51F2003D51F2003D5
+03A3197C 1F2003D51F2003D51F2003D51F2003D5
+03A3198C 1F2003D51F2003D51F2003D51F2003D5
+03A3199C 1F2003D51F2003D51F2003D51F2003D5
+03A319AC 1F2003D51F2003D51F2003D51F2003D5
+03A319BC 1F2003D51F2003D51F2003D51F2003D5
+03A319CC 1F2003D51F2003D51F2003D51F2003D5
+03A319DC 000080D2C0035FD6
+
+// Apply Challenge Modifier to all scene
+@disabled
+03ABADF4 28008052
+
+// Challenge Modifier - SpecialFill
+@disabled
+03A3189C 3F00007161000054200080D2C0035FD6
+
+// Challenge Modifier - FastRespawn
+@disabled
+03A318AC 3F04007161000054200080D2C0035FD6
+
+// Challenge Modifier - SpecialGaugeSave
+@disabled
+03A318BC 3F08007161000054200080D2C0035FD6
+
+// Challenge Modifier - HumanSpeedUp
+@disabled
+03A318CC 3F0C007161000054200080D2C0035FD6
+
+// Challenge Modifier - SquidSpeedUp
+@disabled
+03A318DC 3F10007161000054200080D2C0035FD6
+
+// Challenge Modifier - DeepFog
+@enabled
+03A318EC 3F14007161000054200080D2C0035FD6
+
+// Challenge Modifier - HumanSpeedDown
+@disabled
+03A318FC 3F18007161000054200080D2C0035FD6
+
+// Challenge Modifier - HighJump
+@disabled
+03A3190C 3F1C007161000054200080D2C0035FD6
+
+// Challenge Modifier - DieBlastLarge
+@disabled
+03A3191C 3F20007161000054200080D2C0035FD6
+
+// Challenge Modifier - SpawnArmorUp
+@disabled
+03A3192C 3F24007161000054200080D2C0035FD6
+
+// Challenge Modifier - FastRespawnForPair
+@disabled
+03A3193C 3F28007161000054200080D2C0035FD6
+
+// Challenge Modifier - ModifiedPowerClam
+@disabled
+03A3194C 3F2C007161000054200080D2C0035FD6
+
+// Challenge Modifier - SuperSubWeapon
+@disabled
+03A3195C 3F30007161000054200080D2C0035FD6
+
+// Challenge Modifier - ModifiedRainmaker
+@disabled
+03A3196C 3F34007161000054200080D2C0035FD6
+
+// Challenge Modifier - RainmakerDrop
+@disabled
+03A3197C 3F38007161000054200080D2C0035FD6
+
+// Challenge Modifier - FullMemberAvoidNogame
+@disabled
+03A3198C 3F3C007161000054200080D2C0035FD6
+
+// Challenge Modifier - ModifiedTowerControl
+@disabled
+03A3199C 3F40007161000054200080D2C0035FD6
+
+// Challenge Modifier - RollerBrushSpeedUp
+@disabled
+03A319AC 3F44007161000054200080D2C0035FD6
+
+// Challenge Modifier - SuperSpecialWeapon
+@disabled
+03A319BC 3F48007161000054200080D2C0035FD6
+
+// Challenge Modifier - JumpTimeSave
+@disabled
+03A319CC 3F4C007161000054200080D2C0035FD6
+
+// Challenge User Setting Modifier - RandomWeapon
+@disabled
+03E1528C 2A008052
+03E15290 EA1E00B9
+03E152BC 1F2003D5
+
+// Challenge User Setting Modifier - DisableAdditionalGearSkill
+@disabled
+03E1528C 4A008052
+03E15290 EA1E00B9
+03E152BC 1F2003D5
+
+// Challenge User Setting Modifier - DisableAdditionalGearSkillIfTurfWar
+@disabled
+03E1528C 6A008052
+03E15290 EA1E00B9
+03E152BC 1F2003D5
+
+// Challenge User Setting Modifier - RandomAmiiboGear
+@disabled
+03E1528C 8A008052
+03E15290 EA1E00B9
+03E152BC 1F2003D5
+
+// Challenge User Setting Modifier - RandomWeaponAndGearPower
+@disabled
+03E1528C AA008052
+03E15290 EA1E00B9
+03E152BC 1F2003D5
+
+// Show Big Run Stages
+@enabled
+0167F5F4 08008052
+
+// Grizzco - Show All Regular Weapons [Coxxs]
+@disabled
+03E83D28 20008052
+03E83DE8 1F01086B
+
+// Grizzco - Show All Grizzco Weapons [Coxxs]
+@disabled
+03E83D28 20008052
+03E83DE8 1F01086B
+03E80874 1F2003D5
+03E808A0 280C4EF81F2003D5
+03E808B4 16000014
+
+// Salmon Run Wave Tide - Normal Tide [Coxxs]
+@disabled
+03D427D0 29008052
+
+// Salmon Run Wave Tide - Low Tide
+@disabled
+03D427D0 09008052
+
+// Salmon Run Wave Tide - High Tide
+@disabled
+03D427D0 49008052
+
+// Salmon Run - Allow 1 Player Night Wave [Coxxs]
+@disabled
+03D42834 1F000071
+
+// Salmon Run - Force King Salmonid on Wave 1 [Haxxie]
+@disabled
+03D40B98 1F2003D5
+03D40BA0 1F2003D5
+03D40BA8 09008052 
+
+// Salmon Run - Force King Salmonid on Wave 2 [Haxxie]
+@disabled
+03D40B98 1F2003D5
+03D40BA0 1F2003D5
+03D40BA8 29008052 
+
+// Salmon Run - Force King Salmonid on Wave 4 [Haxxie]
+@enabled
+03D40B98 1F2003D5
+03D40BA0 1F2003D5
+03D40B6C 28008052
+03D40D4C 28008052
+
+// Salmon Run King Salmonid - Cohozuna [ashbinary]
+@disabled
+03C9DE7C F502805204000014 // 23
+
+// Salmon Run King Salmonid - Horrorboros [ashbinary]
+@disabled
+03C9DE7C 1503805204000014 // 24
+
+// Salmon Run King Salmonid - Megalodontia [ashbinary]
+@disabled
+03C9DE7C 3503805204000014 // 25
+
+// Salmon Run King Salmonid - Triumvirate [ashbinary]
+@enabled
+03C9DE7C D503805204000014 // 30
+
+// Salmon Run Wave Type - Regular [Coxxs]
+@disabled
+03D427E8 08008052 // 0
+
+// Salmon Run Wave Type - Rush
+@disabled
+03D427E8 28008052 // 1
+
+// Salmon Run Wave Type - Goldie Seeking
+@disabled
+03D427E8 48008052 // 2
+
+// Salmon Run Wave Type - The Griller
+@disabled
+03D427E8 68008052 // 3
+
+// Salmon Run Wave Type - The Mothership
+@disabled
+03D427E8 88008052 // 4
+
+// Salmon Run Wave Type - Fog
+@disabled
+03D427E8 A8008052 // 5
+
+// Salmon Run Wave Type - Cohock Charge
+@disabled
+03D427E8 C8008052 // 6
+
+// Salmon Run Wave Type - Giant Tornado
+@disabled
+03D427E8 E8008052 // 7
+
+// Salmon Run Wave Type - Mudmouth Eruptions
+@disabled
+03D427E8 08018052 // 8
+
+// Salmon Run - Bigrun
+@disabled
+040D61E8 88008052
+
+// Salmon Run - Pair
+@disabled
+040D61E8 A8008052
+
+// Salmon Run - UnderGround
+@disabled
+040D61E8 C8008052
+
+// Salmon Run - Contest
+@disabled
+040D61E8 E8008052
+
+// Sunset [Coxxs]
+@disabled
+012A189C 200080D2C0035FD6
+
+// Night [Coxxs]
+@disabled
+012A189C 400080D2C0035FD6
