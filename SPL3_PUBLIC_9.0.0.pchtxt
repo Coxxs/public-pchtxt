@@ -467,3 +467,25 @@
 // Night [Coxxs]
 @disabled
 0130761C 400080D2C0035FD6
+
+// * Restart the game *again* to load the edited save
+// Save Edit* - Season=9 (Unlock Stages and more) [Coxxs]
+@disabled
+0398E014 21018052
+03A32EF8 21018052
+
+// Save Edit* - Sheldon Licences=300 [Coxxs]
+@disabled
+039A7024 81258052
+
+// Save Edit* - Level=21 [Coxxs]
+@disabled
+039A688C 81028052
+
+// Save Edit* - Money=9961472 [Coxxs]
+@disabled
+039A6C04 0113A052
+
+// Save Edit* - Super Sea Snail=300 [Coxxs]
+@disabled
+039A6C88 81258052
