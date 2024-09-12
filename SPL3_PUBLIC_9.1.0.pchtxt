@@ -23,6 +23,12 @@
 04030904 1F2003D5
 037D5714 1F2003D5
 
+// Train Station To Grand Festival grounds [Coxxs]
+@enabled
+0426AD6C 08018052
+0426AE3C 08018052
+0426AE44 08018052
+
 // * Replays are stored in the "Cache" storage, you can use JKSV to backup/share/restore them.
 // * Requires at least 2 players in the game for replay to record properly.
 // Allow Record Replays (Shoal) [Coxxs]
