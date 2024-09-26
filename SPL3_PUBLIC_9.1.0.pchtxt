@@ -106,10 +106,16 @@
 @enabled
 0491F4B8 08328052
 
-// Allow Tricolor (Shoal / Recon) [Coxxs]
+// * Note: Players who don't have savedata that picked a fest team will cause the game DC when they pick the signal
+// Allow Tricolor* (Shoal / Recon) [Coxxs]
 @disabled
 04B6655C C9008052
 075E6F6C 05000000
+
+// Show Grand Splatlands Bowl (Tricolor Stage)
+@disabled
+01775B38 28008052
+04650A80 08008052 // Fix crash in stage intro
 
 // Shoal Splatfest (Night + Bgm) v2 [Coxxs]
 @enabled
