@@ -112,10 +112,11 @@
 04B6655C C9008052
 075E6F6C 05000000
 
-// Show Grand Splatlands Bowl (Tricolor Stage)
+// Show Grand Splatlands Bowl* (Tricolor, may cause issue when playing other stages!) [Coxxs]
 @disabled
 01775B38 28008052
-04650A80 08008052 // Fix crash in stage intro
+03F2B838 0D000014 // Force BGM & Fix crash in stage intro 
+03F2B890 61008052 // ^
 
 // Shoal Splatfest (Night + Bgm) v2 [Coxxs]
 @enabled
