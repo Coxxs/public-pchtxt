@@ -212,6 +212,12 @@
 03B1DA14 4D008052
 03B1DA1C 0D2800B9
 
+// Plaza Splatfest - Allow offline fest team selection (Require Allow saving offline) [Coxxs]
+@enabled
+04259318 20008052
+04259688 20008052
+042596A8 68008052
+
 // Plaza Splatfest - Bypass Cloth Change Limit [Coxxs]
 @disabled
 03EF0C54 1F2003D5
