@@ -6,6 +6,7 @@
 // [!]  All patches are NOT online safe, **use them only in emuMMC**, 
 //      and keep emuMMC offline forever, otherwise your console will
 //      be banned.
+//      Never boot the game with *any* patches enabled in sysMMC.
 //      If you are playing with your friends (LDN/LAN), make sure 
 //      their consoles are in isolated emuMMC as well.
 //
@@ -510,3 +511,10 @@
 // Save Edit* - Super Sea Snail=300 [Coxxs]
 @disabled
 039A8168 81258052
+
+// * This patch attempts to close the game before users enter online games by mistake and get banned.
+// * Please note that the game also performs other checks before matchmaking.
+// * Never boot the game with *any* patches enabled in sysMMC.
+// Force close the game when matchmaking online*
+@enabled
+00412C64 DEADBEEF
