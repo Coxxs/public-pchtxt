@@ -347,7 +347,7 @@
 
 // Show Big Run Stages
 @enabled
-022A855C 08008052 // [x] -2899924 C=0 .text+0x256C530 (cset w8, ne) -> .text+0x22A855C (bl #0x14cf228) | +18848176 C=0 .text+0x256C530 (cset w8, ne) -> .text+0x3765EE0 (ldr x12, [x22, #0x10])
+01629524 08008052
 
 // Grizzco - Show All Regular Weapons [Coxxs]
 @disabled
