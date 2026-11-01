@@ -76,6 +76,14 @@
 @enabled 
 0395542C 1F050071
 
+// Dynamic double/triple buffering (only work on real hardware, -16.7ms input lag) [Coxxs]
+@enabled
+04528E78 08408052
+
+// Force double buffering (may stutter on weak hardware, -16.7ms input lag) [Coxxs]
+@disabled
+04528E78 08008052
+
 // https://github.com/theboy181/switch-ptchtxt-mods
 // 60fps [theboy181]
 @disabled
